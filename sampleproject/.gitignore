@@ -1,0 +1,11 @@
+
+#ignore folders
+.settings/
+.gwt
+gwt-unitCache/
+test/
+test-classes/
+war/sampleproject/
+war/WEB-INF/appengine-generated
+war/WEB-INF/classes
+war/WEB-INF/deploy
