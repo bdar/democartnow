@@ -13,8 +13,11 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.sample.client.Order;
 
-@PersistenceCapable(identityType = IdentityType.APPLICATION)
+/*
+ * @PersistenceCapable entity Object that can be saved in GAE.
+ */
 
+@PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class OrderEntity implements Serializable{
 	
 	

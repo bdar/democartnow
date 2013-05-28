@@ -1,5 +1,8 @@
 package com.sample.client;
 
+/*
+ * Class OrderException for any presistence exceptions
+ */
 
 public class OrderException extends Exception {
 	

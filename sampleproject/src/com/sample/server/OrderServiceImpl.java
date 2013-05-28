@@ -11,7 +11,9 @@ import javax.jdo.PersistenceManagerFactory;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
+/*
+ *  Persistence Manager JPA / Hibernate Equivalent to save and order objects.
+ */
 public class OrderServiceImpl extends RemoteServiceServlet implements OrderService {
 	
 	private static final long serialVersionUID = 1L;

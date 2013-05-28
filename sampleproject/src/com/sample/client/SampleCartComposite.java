@@ -30,7 +30,9 @@ import com.google.gwt.view.client.HasData;
 import com.google.gwt.view.client.MultiSelectionModel;
 import com.google.gwt.view.client.SelectionModel;
 
-
+/*
+ * Products UI and to add new Orders.
+ */
 public class SampleCartComposite extends Composite{
 	
 	private final OrderServiceAsync orderService = GWT.create(OrderService.class);
